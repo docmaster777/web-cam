@@ -42,7 +42,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="banner-text">
 				<h1>Union | Web-Студия</h1>
-				<h2>Искусство высокооплачиваемого флирта!</h2>
+				<h2>Искусство высокооплачиваемого флирта!</h2> 
+				<div class="calculator__header">
+					<h2>Ваша зарплата</h2>
+				</div>
+				<div class="row calculator" id="price">
+					
+					<div class="col-md-4 calculator__item">
+						<h3>ВАШ ОПЫТ</h3>
+
+						<input class="in1" type="radio" id="box1" name="box" value="1" checked="checked"><label for="box1">0 мес.</label><br />
+						<input type="radio" id="box2" name="box" value="1.6"><label for="box2">6 мес.</label><br />
+						<input type="radio" id="box3" name="box" value="2.4"><label for="box3">12 мес.</label><br />
+					</div>
+					<div class="col-md-4 calculator__item">
+						<h3>ВЫ ГОВОРИТЕ ПО-АНГЛИЙСКИ</h3>
+
+						<input class="in2" type="radio" id="box1" name="box1" value="1" checked="checked"><label for="box1">Плохо, нужен переводчик</label><br />
+						<input type="radio" id="box2" name="box1" value="1.25"><label for="box2">Уверенно</label><br />
+						<input type="radio" id="box3" name="box1" value="1.5"><label for="box3">Свободно на любые темы</label><br />
+					</div>
+					<div class="col-md-4 calculator__item">
+						<h3>ОТРАБОТАЕТЕ ЧАСОВ В НЕДЕЛЮ</h3>
+
+						<input  class="in3" type="radio" id="box1" name="box2" value="28500" checked="checked"><label for="box1">30</label><br />
+						<input type="radio" id="box2" name="box2" value="38000"><label for="box2">40</label><br />
+						<input type="radio" id="box3" name="box2" value="47500"><label for="box3">50</label><br />
+					</div>
+					<p><h3>Ваша зарплата: <span class="sum">0</span> руб.</h3></p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -51,7 +79,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="header-bottom">
 	 <div class="fixed-header">
 		<div class="container">
-			<div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+			<div class="logo wow fadeInLeft" data-wow-delay="0.5s" data-wow-offset="100">
 				<a href="index.html">
 					<img src="img/loggo.png" class="img-responsive img__float" alt="" />
 					<!-- <p class="logo__text logo__text__first">Union</p>
@@ -884,6 +912,7 @@ $(function () {
 	</div>
 	<!--end-footer-->
 	<script src="js/wow.min.js"></script>
+	<script src="js/calculator.js"></script>
 	<script>
         new WOW().init();
     </script>

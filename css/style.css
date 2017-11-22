@@ -86,6 +86,20 @@ nav a:hover,
 nav a:focus {
 	outline: none;
 }
+.calculator__header{
+  margin-top: 20px;
+}
+.calculator{
+  margin-top: 20px;
+  color: #b6ebff;
+  background: #06010138;
+}
+.calculator__item{
+  text-align: left;
+}
+.calculator__item input{
+  margin:10px 10px 10px 0;
+}
 
 /*-- sticky-nav --*/
 @media screen and (max-width: 768px) {
